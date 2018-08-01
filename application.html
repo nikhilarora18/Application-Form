@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Application Page
+        </title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Personal Info</legend>
+                <br>First Name : <input type="text" placeholder="Enter the first name" 
+                name="First Name" pattern="[a-z]" title="first name should contain only a ,b or c"><br/><br/>
+                Last Name : <input type="text" placeholder="Enter the last name" name="Last Name"><br/><br/>
+                Email <font color="red">*</font> : <input type="email" placeholder="Enter your email" name="email" 
+                 required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br/><br/>
+                Age : <input type="range" value="25" min="0" max="125" name="age"><br/><br/>
+                Password : <input type="password" placeholder="Enter your new password" name="password"><br/><br/>
+                Confirm password : <input type="password" placeholder="Confirm your password"><br/><br/>
+                Skin Color : <input type="color"><br><br>
+                Your Website : <input type="url" placeholder="Enter your Website" ><br/><br/>
+                <p align="center"><input type="submit" value="Sign up"></p>
+                * Fields are mandatory
+            </fieldset>
+        </form>
+    </body>
+</html>
